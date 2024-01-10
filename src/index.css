@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+:root {
+  font-family: Gotham Medium,Open sanrs, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-dark-color: #080c0f;
+  --bg-card-color: #0e1014;
+  --status-color: #FFFF00;
+  --assigned-color: #989898;
+  --in-transit-color: #0394FF;
+  --completed-color: green;
+}
+
+body{
+  background-color: var(--bg-dark-color);
+}
